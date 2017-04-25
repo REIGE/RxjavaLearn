@@ -1,18 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.reige.rxjavalearn.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-</RelativeLayout>
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"/>
+
+            <Button
+                android:id="@+id/bt22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22"/>
+
+            <Button
+                android:id="@+id/bt23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="31"/>
+
+            <Button
+                android:id="@+id/bt32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="32"/>
+
+            <Button
+                android:id="@+id/bt33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="33"/>
+
+            <Button
+                android:id="@+id/bt34"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="34"/>
+
+            <Button
+                android:id="@+id/bt35"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="35"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="41"/>
+
+            <Button
+                android:id="@+id/bt42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"/>
+
+            <Button
+                android:id="@+id/bt43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="43"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
